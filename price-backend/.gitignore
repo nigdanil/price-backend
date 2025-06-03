@@ -1,0 +1,29 @@
+# Executables and binaries
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.app
+
+# Go build
+*.test
+*.log
+backend.log
+
+# Dependency directories (vendor/)
+vendor/
+
+# IDE/editor config
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.env
+.env.*
