@@ -1,9 +1,28 @@
-# Игнорировать все файлы и директории
-/*
+# Executables and binaries
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.app
 
-# Исключение: исключаем текущий .gitignore файл
-!.gitignore
+# Go build
+*.test
+*.log
+backend.log
 
-# Дополнительные исключения (если есть)
-!important-file.txt
-!important-folder/
+# Dependency directories (vendor/)
+vendor/
+
+# IDE/editor config
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.env
